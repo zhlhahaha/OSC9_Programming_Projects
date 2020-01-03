@@ -1,0 +1,19 @@
+command reference
+
+# compile module
+$ make
+
+#load module
+$ insmod simple.ko
+
+#remove module
+$ rmmod simple
+
+#check loaded modules
+$ lsmod
+
+#check message
+$ dmesg
+
+#clean dmesg buffer
+$ dmesg -c
